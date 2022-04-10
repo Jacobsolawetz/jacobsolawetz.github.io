@@ -1,5 +1,26 @@
-h1, h2, li, p {
+h1, h2, h3, li, p {
     color:#72FF13;
+}
+
+ol {list-style-position: inside;}
+
+a {
+    color: #ff3503
+}
+
+#sra-button {
+    background-color: green;
+    border-color: #72FF13;
+    color: #72FF13;
+}
+
+#btc-address {
+    text-align: center;
+}
+
+img {
+    text-align: center;
+    
 }
 
 #set-light-theme, #set-dark-theme {

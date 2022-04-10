@@ -5,8 +5,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" type="image/x-icon" href="jacob_linked_in.jpeg">
+        <link rel="shortcut icon" type="image/x-icon" href="jacobsolawetz.jpeg">
         <title>Jacob Solawetz</title>
+
+        <script src=
+            "https://smtpjs.com/v3/smtp.js">
+        </script>
+        
+        <script type="text/javascript">
+            function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "kaermorhentreasury@gmail.com",
+                Password: "sphhcqzsrdgeybob",
+                To: 'jacob@roboflow.com',
+                From: "kaermorhentreasury@gmail.com",
+                Subject: "New SRA Subscriber!",
+                Body: "You have a new SRA subscriber - " + document.getElementById('your-email').value,
+            })
+                .then(function (message) {
+                alert("SRA subscription success!")
+                });
+            }
+        </script>
+
+
     </head>
 
     <body>
@@ -29,21 +52,24 @@
                 </ul>
             </nav>
             <article id="about">
-                <h2>
-                    About
-                </h2>
 
+            
+
+                <img src="jacobsolawetz.jpeg" alt="Jacob Solawetz">
+                <p></p>
                 <p>
-                    I am making computer vision more accessible to practioners at Roboflow. This invovles leading a best-in-class ML team that is building automated machine learning solutions with surrounding APIs and producing content. 
+                    I am buidling <a href="docs.roboflow.com" target="_blank">computer vision devoloper tools</a> at <a href="https://www.roboflow.com" target="_blank">Roboflow</a>. This invovles leading a best-in-class machine learning team that is building automated machine learning solutions, implementing their surrounding APIs, and scaling them. 
                 </p>
 
                 <p>
-                    In a past life, I worked in quantitative trading and NLP research.
+                    In a past life, I worked in <a id="creations-link">quant trading</a> and <a id="creations-link">AI research</a>.
                 </p>
 
                 <p>
-                    In a future life, I am building a sabattical retreat academy.
+                    In a future life, I am building a <a id="sra-link">sabattical retreat academy</a>.
                 </p>
+
+                
 
             </article>
             <article id="creations">
@@ -51,47 +77,150 @@
                     Creations
                 </h2>
 
-                <p>
-                    CV: Roboflow Train
-                </p>
-                <p>
-                    CV: Roboflow Deploy
-                </p>
-                <p>
-                    NLP: LSOIE
-                </p>
-                <p>
-                    Quant: Aquantis
-                </p>
-                <p>
-                    Quant: Short Vol
-                </p>
-                <p>
-                    Quant: FAR
-                </p>
-                <p>
-                    Quant: DRE
-                </p>
+                <h3>
+                    Computer Vision
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="docs.roboflow.com/train" target="_blank">Roboflow Train</a>
+                    </li>
+                    <li>
+                        <a href="docs.roboflow.com/infer">Roboflow Deploy</a>
+                    </li>
+                </ul>
+
+                <h3>
+                    Natural Laungage Processing
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="https://aclanthology.org/2021.eacl-main.222/" target="_blank">Large Scale Open Information Extraction</a>
+                    </li>
+                </ul>
+
+
+                <h3>
+                    Quant Trading
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="https://github.com/Jacobsolawetz/td-bot" target="_blank">Short Vol Trade Bot</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Jacobsolawetz/options_backtester" target="_blank">Short Volatility Strategy</a>
+                    </li>
+                    <li>
+                        <a id="prop1">Dynamic Relative Value and Equity Momentum Strategy</a>
+                    </li>
+                    <li>
+                        <a id="prop2">Distressed Capture Strategy</a>
+                    </li>
+                    <li>
+                        <a id="prop3">Aquantis Capital Management</a>
+                    </li>
+                </ul>
+
+                <h3>
+                    Service
+                </h3>
+
+                <ul>
+                    <li>
+                        <a href="https://grouporganizer.wustl.edu/organization/projecthink" target="_blank">Project Think</a>
+                    </li>
+                </ul>
+                
             </article>
             <article id="nature">
                 <h2>
                     Nature
                 </h2>
+                <p>
+                    I grew up spending most of my time outdoors and love nothing better than a day in the forest with friends.
+                </p>
+                <img src="mnnorth_jacobsolawetz.jpeg"></img>
+
+                <img src="jacobsolawetz_chicago.jpg"></img>
+
+                <img src="goformosa_jacobsolawetz.jpeg"></img>
+
+                <img src="bigbend_jacobsolawetz.jpeg"></img>
             </article>
             <article id="philosophy">
                 <h2>
-                    Philosphy
+                    Philosophy
                 </h2>
-            </article>
+
+                <p>
+                    I am a fan of <a href="https://en.wikipedia.org/wiki/Straw_man#:~:text=A%20steel%20man%20argument%20(or,strongest%20form%20of%20their%20argument." target="_blank">steel manning</a>, so, I have assembled a personal philosphy that is like a mansion with many rooms.
+                </p>
+
+                <p>
+                    Here is a list of philosophical works that have influenced me. I made an effort to rank them in order of their influence.
+                </p>
+
+                <ol>
+                    <li>
+                        <a href="https://www.goodreads.com/book/show/121732.Surprised_by_Joy" target="_blank">C.S. Lewis: Suprised By Joy</a>
+                    </li>
+                    <li>
+                        <a href="https://www.goodreads.com/book/show/243685.A_History_of_Western_Philosophy" target="_blank">Bertrand Russell: A History of Western Philosophy</a>
+                    </li>
+                    <li>
+                        <a href="https://www.goodreads.com/book/show/102030.Musashi" target="_blank">Eiji Yoshikawa: Musashi</a>
+                    </li>
+                    <li>
+                        <a href="https://www.goodreads.com/book/show/5297.The_Picture_of_Dorian_Gray" target="_blank">Oscar Wilde: The Picture of Dorian Gray</a>
+                    </li>
+                    <li>
+                        <a href="https://www.goodreads.com/book/show/12321.Beyond_Good_and_Evil" target="_blank">Friedrich Nietzche: Beyond Good and Evil</a>
+                    </li>
+                </ol>
+                </article>
             <article id="sabattical">
                 <h2>
                     Sabattical Retreat Academy
                 </h2>
+
+                <p>
+                    My life long goal is to start a non-profit sabbatical retreat academy, where intellectuals can complete a life's work thesis near the end of their careers. The SRA community will be cross-disiplinary and focused on integrating the beauty of nature and the formation of new knowledge.
+                </p>
+
+                <p>
+
+                </p>
+
+                <form method="post">
+
+                    <input type="text" id="your-email" placeholder="you@example.com"/>
+
+                    <input type="button" id="sra-button" value="Subscribe to SRA Announcements" 
+                        onclick="sendEmail()" />
+                  </form>
+
+                <p>
+                    If you have enjoyed my open source work, and the SRA excites you, please consider donating to it by sending Bitcoin to:
+                </p>
+
+                <p id="btc-address">
+                    <a>16gxUs466iJK7K2LMZYwFEnQwhmhWjbwUx</a>
+                </p>
+                
+
             </article>
             <article id="connect">
                 <h2>
                     Connect
                 </h2>
+                <p>
+                    <a href="https://www.linkedin.com/in/jacob-solawetz-a92832a7/" targ="_blank">LinkedIn</a>
+                </p>
+                <p>
+                    jacob [at] roboflow [.] com
+                </p>
             </article>
         </main>
     </body>
@@ -151,6 +280,16 @@
         document.getElementById("sabattical").style.display = 'block';
     });
 
+    document.getElementById("sra-link").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'block';
+    });
+
     document.getElementById("connect-click").addEventListener('click', event=>{
         document.getElementById("about").style.display = 'none';
         document.getElementById("creations").style.display = 'none';
@@ -160,6 +299,19 @@
         document.getElementById("connect").style.display = 'none';
         document.getElementById("connect").style.display = 'block';
     });
+
+    document.getElementById("prop1").addEventListener('click', event=>{
+        alert("Proprietary project")
+    });
+
+    document.getElementById("prop2").addEventListener('click', event=>{
+        alert("Proprietary project")
+    });
+
+    document.getElementById("prop3").addEventListener('click', event=>{
+        alert("Proprietary project")
+    });
+    
     
     document.getElementById("about").style.display = 'none';
     document.getElementById("creations").style.display = 'none';
