@@ -1,8 +1,46 @@
-<body>
-    <h1>
-        Jacob Solawetz
-    </h1>
-    <div style="width: 20%; height: 50%; background-color: green; float:left;">-</div>
-    <div style="width: 80%; height: 50%; background-color: blue; float:right;">-</div>
-    <div style="width: 100%; height: 50%; background-color: red; clear:both">-</div>
-</body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.classless.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="dog.png">
+        <title>Jacob Solawetz</title>
+    </head>
+
+    <body>
+        <main class="container">
+            <h1>Jacob Solawetz</h1>
+            <nav>
+                <ul>
+                </ul>
+            </nav>
+            <nav id="table-of-contents">
+                <ul>
+                </ul>
+                <ul id="nav-links">
+                    <li><a href="#">Top</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                </ul>
+            </nav>
+            <article id="about">
+                <h2>
+                    About
+                </h2>
+            </article>
+            <article id="resume">
+                <h2>
+                    Resume
+                </h2>
+            </article>
+        </main>
+    </body>
+</html>
+
+<script>
+
+    document.querySelector("html").setAttribute("data-theme", "dark");
+
+</script>

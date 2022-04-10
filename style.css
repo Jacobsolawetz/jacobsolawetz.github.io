@@ -1,0 +1,13 @@
+h1, h2 {
+    color:#72FF13;
+}
+
+#set-light-theme, #set-dark-theme {
+    cursor:pointer;
+}
+
+#table-of-contents {
+    position: sticky;
+    top: 10px;
+    text-align: center;
+}
