@@ -20,9 +20,12 @@
                 <ul>
                 </ul>
                 <ul id="nav-links">
-                    <li><a href="#">Top</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#resume">Resume</a></li>
+                    <li id="about-click">About</li>
+                    <li id="creations-click">Creations</li>
+                    <li id="skills-click">Skills</li>
+                    <li id="nature-click">Nature</li>
+                    <li id="philosophy-click">Philosophy</li>
+                    <li id="sra-click">SRA</li>
                 </ul>
             </nav>
             <article id="about">
@@ -30,9 +33,29 @@
                     About
                 </h2>
             </article>
-            <article id="resume">
+            <article id="creations">
                 <h2>
-                    Resume
+                    Creations
+                </h2>
+            </article>
+            <article id="skills">
+                <h2>
+                    Skills
+                </h2>
+            </article>
+            <article id="nature">
+                <h2>
+                    Nature
+                </h2>
+            </article>
+            <article id="philosophy">
+                <h2>
+                    Philosphy
+                </h2>
+            </article>
+            <article id="sabattical">
+                <h2>
+                    Sabattical Retreat Academy
                 </h2>
             </article>
         </main>
@@ -42,5 +65,69 @@
 <script>
 
     document.querySelector("html").setAttribute("data-theme", "dark");
+
+    document.getElementById("about-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("about").style.display = 'block';
+    });
+
+    document.getElementById("creations-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("creations").style.display = 'block';
+    });
+    
+    document.getElementById("skills-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("skills").style.display = 'block';
+    });
+    
+    document.getElementById("nature-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("nature").style.display = 'block';
+    });
+    
+    document.getElementById("philosophy-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'block';
+    });
+    
+    document.getElementById("sra-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("about").style.display = 'block';
+    });
+    
+    
+
+
 
 </script>
