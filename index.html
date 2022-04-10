@@ -11,7 +11,7 @@
 
     <body>
         <main class="container">
-            <h1>Jacob Solawetz</h1>
+            <h1 href="#">Jacob Solawetz</h1>
             <nav>
                 <ul>
                 </ul>
@@ -26,6 +26,7 @@
                     <li id="nature-click">Nature</li>
                     <li id="philosophy-click">Philosophy</li>
                     <li id="sra-click">SRA</li>
+                    <li id="connect-click">Connect</li>
                 </ul>
             </nav>
             <article id="about">
@@ -58,6 +59,11 @@
                     Sabattical Retreat Academy
                 </h2>
             </article>
+            <article id="connect">
+                <h2>
+                    Connect
+                </h2>
+            </article>
         </main>
     </body>
 </html>
@@ -73,6 +79,7 @@
         document.getElementById("nature").style.display = 'none';
         document.getElementById("philosophy").style.display = 'none';
         document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
         document.getElementById("about").style.display = 'block';
     });
 
@@ -83,6 +90,7 @@
         document.getElementById("nature").style.display = 'none';
         document.getElementById("philosophy").style.display = 'none';
         document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
         document.getElementById("creations").style.display = 'block';
     });
     
@@ -93,6 +101,7 @@
         document.getElementById("nature").style.display = 'none';
         document.getElementById("philosophy").style.display = 'none';
         document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
         document.getElementById("skills").style.display = 'block';
     });
     
@@ -103,6 +112,7 @@
         document.getElementById("nature").style.display = 'none';
         document.getElementById("philosophy").style.display = 'none';
         document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
         document.getElementById("nature").style.display = 'block';
     });
     
@@ -113,6 +123,7 @@
         document.getElementById("nature").style.display = 'none';
         document.getElementById("philosophy").style.display = 'none';
         document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
         document.getElementById("philosophy").style.display = 'block';
     });
     
@@ -123,7 +134,19 @@
         document.getElementById("nature").style.display = 'none';
         document.getElementById("philosophy").style.display = 'none';
         document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
         document.getElementById("about").style.display = 'block';
+    });
+
+    document.getElementById("connect-click").addEventListener('click', event=>{
+        document.getElementById("about").style.display = 'none';
+        document.getElementById("creations").style.display = 'none';
+        document.getElementById("skills").style.display = 'none';
+        document.getElementById("nature").style.display = 'none';
+        document.getElementById("philosophy").style.display = 'none';
+        document.getElementById("sabattical").style.display = 'none';
+        document.getElementById("connect").style.display = 'none';
+        document.getElementById("connect").style.display = 'block';
     });
     
     
