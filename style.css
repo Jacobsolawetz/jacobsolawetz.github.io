@@ -8,6 +8,10 @@ a {
     color: #ff3503
 }
 
+#nav-links {
+    cursor: pointer;
+}
+
 #sra-button {
     background-color: green;
     border-color: #72FF13;
